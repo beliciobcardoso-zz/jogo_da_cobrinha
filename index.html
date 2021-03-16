@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Jogo da cobrinha</title>
+</head>
+
+<body>
+    <header>
+        <h1>SNAKE GAME!</h1>
+    </header>
+    <main>
+        <canvas id="snake" width="640" height="640"></canvas>
+        <section>
+            <p id="points"></p>
+        </section>
+    </main>
+
+
+    <div class="modal_gameStart">
+        <div class="gameStart">
+            <h2>Iniciar Jogo</h2>
+            <div class="button_startgame actions">
+                <a href="#" onclick="startGame()" class="button confirm">OK</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal_Gameover">
+        <div class="gameOver">
+            <h2>Game Over</h2>
+            <div class="button_startgame actions">
+                <a href="#" onclick="modal_Gameover()" class="button cancel">OK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="keyboard">
+        <div class="keyboard_line1">
+            <div id="key_left" class="key" onclick="keyboard(37)">
+                <i class="material-icons">
+                    arrow_back
+                </i>
+            </div>
+        </div>
+        <div class="keyboard_line2">
+            <div id="key_up" class="key" onclick="keyboard(38)">
+                <i class="material-icons">
+                    arrow_upward
+                </i>
+            </div>
+            <div id="key_down" class="key" onclick="keyboard(40)">
+                <i class="material-icons">
+                    arrow_downward
+                </i>
+            </div>
+        </div>
+        <div class="keyboard_line3">
+            <div id="key_right" class="key" onclick="keyboard(39)">
+                <i class="material-icons">
+                    arrow_forward
+                </i>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
