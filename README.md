@@ -6,6 +6,8 @@
 <p>Aprendi a criar o jogo do zero com javascript puro e incrementei novas funcionalidade.
 O jogo esta com responsividade podendo abrir no celular e então criei um teclado direcional com as setas podendo jogar no celular. Foi adicionado um placar para o jogador acompanhar os pontos a cada comida da maça.</p>
 
+https://beliciobcardoso.github.io/jogo_da_cobrinha/
+
 <img src="./img/web_1.jpg" width="400">
 
 <img src="./img/web_2.jpg" width="400" align="center">
